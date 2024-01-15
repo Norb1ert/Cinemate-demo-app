@@ -1,0 +1,11 @@
+.app {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2rem 0;
+  gap: 4rem;
+  min-height: 50rem;
+}
+
+.view {
+  background-color: #1c1b1b;
+}

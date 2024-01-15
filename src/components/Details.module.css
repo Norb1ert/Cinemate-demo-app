@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  background-color: #68539c;
+  border-radius: 10px;
+  margin: 0.5rem;
+  justify-content: space-between;
+  position: relative;
+  color: #fff;
+}
+
+.back {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  height: 2.4rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 999;
+  background-color: rgb(255, 255, 255);
+}
+
+.image {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.overview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-right: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.additional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 3rem;
+  text-align: center;
+  color: #fff;
+}
+
+.info {
+  font-weight: 500;
+}
+
+.add {
+  background-color: #181a1c;
+  padding: 1rem 2rem;
+  margin: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.watched {
+  background-color: #68539c;
+  padding: 1rem 2rem;
+  margin: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+}

@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-right: 2rem;
+}
+.nav a:link,
+.nav a:visited {
+  margin-left: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.nav a:global(.active) {
+  /* color: var(--color-highlight-1); */
+  color: #4f359b;
+}

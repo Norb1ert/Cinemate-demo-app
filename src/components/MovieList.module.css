@@ -1,0 +1,7 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  padding: 1rem 0;
+  color: #fff;
+}

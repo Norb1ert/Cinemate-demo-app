@@ -1,0 +1,21 @@
+.stats {
+  padding: 2rem 1rem;
+  margin: 1rem;
+  background-image: linear-gradient(45deg, #68539c, #4f359b);
+  border-radius: 10px;
+}
+
+.stats h2 {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  color: white;
+  font-size: 1.4rem;
+}

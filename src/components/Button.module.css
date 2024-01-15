@@ -1,0 +1,29 @@
+.btn {
+  background-color: #4f359b;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 2rem;
+  color: var(--color-white-1);
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.buy {
+  border-radius: 30px;
+  padding: 1rem 3rem;
+  font-weight: 700;
+}
+
+.subscribe {
+  font-size: 1rem;
+  border-radius: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.add {
+  padding: 0.5rem 5rem;
+  border-radius: 25px;
+}

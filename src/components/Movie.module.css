@@ -1,0 +1,25 @@
+.movie {
+  display: grid;
+  grid-template-columns: 4rem 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 2.4rem;
+  font-size: 1.4rem;
+  align-items: center;
+  padding: 2rem 2rem;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.movie:hover {
+  background-color: #181a1c;
+  transition: 0.3s;
+}
+
+.movie img {
+  width: 100%;
+  grid-row: 1 /-1;
+}
+
+.movie p {
+  font-weight: 500;
+}
